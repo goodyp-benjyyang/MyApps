@@ -19,10 +19,12 @@ public class AuthorizeController {
                            @RequestParam(name="state")String state){
         AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
         accessTokenDTO.setRedirect_uri("http://localhost:8899/callback");
+        accessTokenDTO.setCode(code);
         accessTokenDTO.setState(state);
         accessTokenDTO.setClient_id("193299d96df4b9e72db1");
         accessTokenDTO.setClient_secret("6da7cc20ee647d62fc53fd1f9300d78c813fbb29");
         String accessToken = githubProvider.getAccessToken( accessTokenDTO );
+
 
         GithubUser user = githubProvider.getUser(accessToken);
         System.out.println( user.getName() );
