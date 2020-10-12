@@ -9,6 +9,8 @@ import top.goodyp.springboot.dto.AccessTokenDTO;
 import top.goodyp.springboot.dto.GithubUser;
 import top.goodyp.springboot.provider.GithubProvider;
 
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 public class AuthorizeController {
     @Autowired
@@ -23,7 +25,8 @@ public class AuthorizeController {
 
     @GetMapping("/callback")
     public String callback(@RequestParam(name="code")String code,
-                           @RequestParam(name="state")String state){
+                           @RequestParam(name="state")String state,
+                           HttpServletRequest request){
         AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
         accessTokenDTO.setRedirect_uri(redirectUri);
         accessTokenDTO.setCode(code);
@@ -34,8 +37,14 @@ public class AuthorizeController {
 
 
         GithubUser user = githubProvider.getUser(accessToken);
-        System.out.println( user.toString() );
-        System.out.println( user.getName() );
-        return "index";
+
+        if ( user!=null ){
+            //登录成功，写cookie和session
+            request.getSession().setAttribute("user", user);
+            return "redirect:/";
+        }else{
+            //登录失败，重新登录
+            return "redirect:/";
+        }
     }
 }
