@@ -19,3 +19,12 @@
 [GIt](https://git-scm.com/download)
 [VP](https://www.visual-paradigm.com)
 
+项目计划：
+1.springboot框架
+2.前端框架
+3.git配置
+4.OAuth配置
+5.登陆认证
+6.Session和Cookie
+7.数据库
+
