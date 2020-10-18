@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44186f84-0837-4e80-aac2-d00f178d8009" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/controller/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/goodyp/springboot/controller/AuthorizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/goodyp/springboot/controller/AuthorizeController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +14,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-boot" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/goodyp/springboot/provider/GithubProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="1404">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="360">
+              <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -85,8 +84,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <first_editor relative-caret-position="1008">
+                <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -124,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/SpringBoot.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/dto/AccesstokenDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/dto/AccessTokenDTO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -132,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/dto/GithubUser.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/top/goodyp/springboot/controller/AuthorizeController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
       </list>
     </option>
@@ -333,16 +332,20 @@
       <workItem from="1602510531301" duration="6866000" />
       <workItem from="1602680215841" duration="5650000" />
       <workItem from="1602944352775" duration="910000" />
+      <workItem from="1602946057762" duration="1782000" />
+      <workItem from="1602989061665" duration="599000" />
+      <workItem from="1603029467786" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41865000" />
+    <option name="totallyTimeSpent" value="44874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="2562" height="1622" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2161395" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22830495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -352,19 +355,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5648824" weight="0.4480956" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5644769" weight="0.21657954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.4351176" side_tool="true" visible="true" weight="0.17027633" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48459044" weight="0.33159074" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.43552312" side_tool="true" visible="true" weight="0.21807319" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48418492" weight="0.33159074" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49959448" weight="0.32935026" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49959448" weight="0.32935026" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4975669" weight="0.32935026" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4971614" weight="0.32935026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/goodyp/springboot/provider/GithubProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="1404">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -481,8 +484,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="1008">
+            <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -497,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
         </state>
       </provider>
     </entry>
